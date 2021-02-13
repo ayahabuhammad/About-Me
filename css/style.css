@@ -15,7 +15,7 @@
  h2{ 
  font-style: oblique;
  text-align: center;
- 
+
  
  
 }
@@ -38,7 +38,7 @@
 }
 
 body {
-   background-image: url(http://chomsky.soc.cornell.edu/~marty/plasma-turbulence-web-background.jpg);
+   background-image: url(/bg.jpg);
    background-repeat: repeat;
    background-size:cover;
    background-attachment: fixed;
