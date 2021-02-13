@@ -1,27 +1,47 @@
+
  a {
     text-align:center;
     text-size-adjust:initial;
-    color:rgb(243, 235, 238)
+    color:rgb(0, 0, 0)
 
  }
  h1 {
     text-align: center;
-    color: rgb(235, 63, 114);
-    font-family:serif
+    color: rgb(0, 0, 0);
+    font-family:serif;
+    font-style: oblique;
+    
 }
-
+ h2{ 
+ font-style: oblique;
+ text-align: center;
+ 
+ 
+ 
+}
+.mydiv{
+   border-style: double;
+   width: 20%;
+   
+}
  p {
+    
     text-align:left;
-    color: rgb(5, 5, 5);
+    color: rgb(0, 0, 0);
     font-size:large;
-    font-family:serif ;
+    font-style: inherit ;
     text-indent: 30px;
+    border: black;
+    border-style:initial;
+    position:relative;
     
 }
 
 body {
-   background-image: url(https://www.relationshipone.com/wp-content/uploads/2017/08/iStock-583709876.jpg);
-   background-repeat: no-repeat;
+   background-image: url(http://chomsky.soc.cornell.edu/~marty/plasma-turbulence-web-background.jpg);
+   background-repeat: repeat;
+   background-size:cover;
    background-attachment: fixed;
-   background-size: cover;
+   
+  
 }
