@@ -1,0 +1,27 @@
+ a {
+    text-align:center;
+    text-size-adjust:initial;
+    color:rgb(243, 235, 238)
+
+ }
+ h1 {
+    text-align: center;
+    color: rgb(235, 63, 114);
+    font-family:serif
+}
+
+ p {
+    text-align:left;
+    color: rgb(5, 5, 5);
+    font-size:large;
+    font-family:serif ;
+    text-indent: 30px;
+    
+}
+
+body {
+   background-image: url(https://www.relationshipone.com/wp-content/uploads/2017/08/iStock-583709876.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
