@@ -1,5 +1,5 @@
 'use strict';
-
+let score=0 ;
 let userName=prompt('Hello there, what is your name plz?');
 let starGame=confirm('So can we start our guessing game ? ' + ' ' + userName);
 if (starGame === true){
@@ -16,6 +16,7 @@ switch(questionOne.toLowerCase()){
 case 'yes':
 case 'y':
   alert('Thats right I\'m 25 years old');
+  Score++ ;
   break;
 case 'no':
 case 'n':
@@ -32,6 +33,7 @@ switch(questionTwo.toLowerCase()){
 case 'yes':
 case 'y':
   alert('of course, i love handicrafts ');
+  score++;
   break;
 case 'no':
 case 'n':
@@ -48,6 +50,7 @@ switch(questionThree.toLowerCase()){
 case 'yes':
 case 'y':
   alert('Yes , Iam');
+  score++;
   break;
 case 'no':
 case 'n':
@@ -63,6 +66,7 @@ switch(questionFour.toLowerCase()){
 case 'yes':
 case 'y':
   alert('Thats not correct, i can eat everything ');
+  score++;
   break;
 case 'no':
 case 'n':
@@ -79,6 +83,7 @@ switch(questionFive.toLowerCase()){
 case 'yes':
 case 'y':
   alert('False , I have a bachelors degree in computer science');
+  score++;
   break;
 case 'no':
 case 'n':
@@ -96,6 +101,7 @@ let userInput=prompt('try to guess the number between 1 and 20');
 while(attempts){
   if (userInput==='13'){
     alert('correct answer!');
+    score++;
     break;
   } else if(userInput<13){
     alert('Too Low');
@@ -121,6 +127,7 @@ guessLoop: while(input<6) {
   for (let i = 0; i < galaxyName.length; i++) {
     if (questionSeven === galaxyName[i]) {
       alert('greet you have good knowledge');
+      score++;
       break guessLoop;
     } else if(input!==6){
       questionSeven=prompt('Try again!');
@@ -130,4 +137,4 @@ guessLoop: while(input<6) {
 }
 for (let i = 0; i < galaxyName.length; i++) {
 document.write(galaxyName[i]+ ' - ');
-}
+}alert('you`r score is '+score+' of 7' );
